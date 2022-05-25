@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@700&display=swap');
+
+@font-face {
+    font-family: 'Ailerons';
+    src: url('../assets/Ailerons-Typeface.otf');
+    font-weight: 200;
+    font-style: normal;
+    }
+
+.navbar {
+    font-family: 'Ailerons', serif;
+    color: rgb(15,15,15);
+    cursor: pointer;
+    font-size: 1.9rem;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Ailerons', serif;
+    color: rgb(15,15,15);
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+@media  screen and (max-width : 768px) {
+    .navbar {
+        font-size: 1.5rem;
+    }
+}
